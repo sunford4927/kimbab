@@ -5,7 +5,7 @@ import Menu from "./Menu";
 
 function App() {
   return (
-    <Router>
+    <Router basename="https://sunford4927.github.io/kimbab">
     <div className="App">
       <Header/>
       <Routes>
