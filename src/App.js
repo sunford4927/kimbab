@@ -5,7 +5,7 @@ import Menu from "./Menu";
 
 function App() {
   return (
-    <Router basename="https://sunford4927.github.io/kimbab">
+    <Router basename={process.env.PUBLIC_URL}>
     <div className="App">
       <Header/>
       <Routes>
