@@ -1,0 +1,12 @@
+.menu{
+    margin : auto 0 auto
+}
+
+.menu_row{
+    display: flex;
+    z-index: 1;
+    width: 100%;
+    justify-content:center;
+    margin : 0px 0px 0px 0px;
+
+}
