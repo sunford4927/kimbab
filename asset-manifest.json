@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kimbab/static/css/main.04e13dc7.css",
-    "main.js": "/kimbab/static/js/main.a2b3c005.js",
+    "main.js": "/kimbab/static/js/main.e36300a3.js",
     "static/js/787.97339a5d.chunk.js": "/kimbab/static/js/787.97339a5d.chunk.js",
     "index.html": "/kimbab/index.html",
     "main.04e13dc7.css.map": "/kimbab/static/css/main.04e13dc7.css.map",
-    "main.a2b3c005.js.map": "/kimbab/static/js/main.a2b3c005.js.map",
+    "main.e36300a3.js.map": "/kimbab/static/js/main.e36300a3.js.map",
     "787.97339a5d.chunk.js.map": "/kimbab/static/js/787.97339a5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04e13dc7.css",
-    "static/js/main.a2b3c005.js"
+    "static/js/main.e36300a3.js"
   ]
 }
