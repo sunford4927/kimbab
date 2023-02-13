@@ -14,6 +14,7 @@ function Basket(props) {
   const [allprice, setAllprice] = useState(0)
   const [saleprice, setSaleprice] = useState(0)
   const [persent, setPersent] = useState(0)
+  const [intro, setIntro] = useState('')
 
 
   const array = props.toDos.choice;
@@ -56,6 +57,7 @@ function Basket(props) {
   function totalprice(value){
     if(value == '포장'){
         setAllprice(price-saleprice-((price-saleprice)*0.1))
+        setIntro('(포장할인 10%)')
     } else {
         setAllprice(price-saleprice)
     }
@@ -88,7 +90,7 @@ function Basket(props) {
             <p><span className="l_text">상품합계 : {price}원</span></p>
             <p><span className="l_text">상품할인 {saleprice}원 ({persent}%)</span></p>
             <p><span className="l_text">배달료 : {delivery}원</span></p>
-            <p><span className="l_text">합계 : {allprice}원</span></p>
+            <p><span className="l_text">합계 : {allprice}원 {intro}</span></p>
           </div>
         </div>
       </div>
