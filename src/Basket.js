@@ -59,7 +59,8 @@ function Basket(props) {
         setAllprice(price-saleprice-((price-saleprice)*0.1))
         setIntro('(포장할인 10%)')
     } else {
-        setAllprice(price-saleprice)
+        setAllprice(price-saleprice+delivery)
+        
     }
 }
   useEffect(() => {

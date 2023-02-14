@@ -27,3 +27,9 @@
     box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
     transform: translateX(4px);
   }
+
+.wel_img{
+    /* object-fit: contain; */
+    max-height: 400px;
+    width: 100%;
+}
